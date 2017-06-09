@@ -6,7 +6,8 @@ public class TestPlanetExplorer {
 
 	@Test
 	public void test_startnaPozicija() {
-		PlanetExplorer pozicija = new PlanetExplorer(0, 0, "N");
-		assertNotNull(pozicija);
+		PlanetExplorer planet = new PlanetExplorer(0, 0, "N");
+		String kraj = planet.pozicija();
+		assertEquals(planet, kraj);
 	}
 }
