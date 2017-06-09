@@ -112,3 +112,19 @@ RefactoringAction 1497005803871 PlanetExplorerException.java ADD void PlanetExpl
 RefactoringAction 1497005805377 PlanetExplorerException.java RENAME PlanetExplorerException=>void PlanetExplorerException() METHOD
 RefactoringAction 1497005826937 PlanetExplorerException.java REMOVE PlanetExplorerException() METHOD
 EditAction 1497005827726 PlanetExplorerException.java 62 0 0 0
+CompilationAction 1497005927919 PlanetExplorer.java
+CompilationAction 1497005927921 TestPlanetExplorer.java
+CompilationAction 1497005945906 PlanetExplorer.java
+RefactoringAction 1497006046520 TestPlanetExplorer.java RENAME test_desno1()=>void test_desnoD() METHOD
+RefactoringAction 1497006048030 TestPlanetExplorer.java RENAME test_desnoD()=>void test_desnoDva FIELD
+RefactoringAction 1497006059054 TestPlanetExplorer.java RENAME test_desno2()/2=>void test_desno3() METHOD
+UnitTestCaseAction 1497006149311 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497006149313 TestPlanetExplorer.java FAIL
+RefactoringAction 1497006168220 TestPlanetExplorer.java ADD void test_desno3()/2 METHOD
+RefactoringAction 1497006173730 TestPlanetExplorer.java RENAME test_desno3()/2=>void test_levo3() METHOD
+RefactoringAction 1497006175243 TestPlanetExplorer.java RENAME test_levo3()=>void test_levo() METHOD
+RefactoringAction 1497006200824 TestPlanetExplorer.java ADD void test_levo()/2 METHOD
+RefactoringAction 1497006202835 TestPlanetExplorer.java RENAME test_levo()/2=>void test_levo1() METHOD
+CompilationAction 1497006247265 PlanetExplorer.java
+CompilationAction 1497006247564 PlanetExplorer.java
+EditAction 1497006255489 PlanetExplorer.java 3180 13 16 0

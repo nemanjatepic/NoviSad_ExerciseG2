@@ -18,8 +18,58 @@ public class TestPlanetExplorer {
 		PlanetExplorer planet = new PlanetExplorer(0, 0, "E");
 	
 		String r = planet.executeCommand("r");
+		
 		String kraj = planet.pozicija();
-		assertEquals("Pocetne koordinate", r, planet);
+		assertEquals(r, planet);
+	}
+	
+	@Test(expected = PlanetExplorerException.class)
+	public void test_desno2() throws PlanetExplorerException {
+		
+		PlanetExplorer planet = new PlanetExplorer(0, 0, "S");
+	
+		String r = planet.executeCommand("r");
+		r = planet.executeCommand("r");
+		
+		String kraj = planet.pozicija();
+		assertEquals(r, planet);
+	}
+	
+	@Test(expected = PlanetExplorerException.class)
+	public void test_desno3() throws PlanetExplorerException {
+		
+		PlanetExplorer planet = new PlanetExplorer(0, 0, "W");
+	
+		String r = planet.executeCommand("r");
+		r = planet.executeCommand("r");
+		r = planet.executeCommand("r");
+		
+		String kraj = planet.pozicija();
+		assertEquals(r, planet);
+	}
+	
+	@Test(expected = PlanetExplorerException.class)
+	public void test_levo() throws PlanetExplorerException {
+		
+		PlanetExplorer planet = new PlanetExplorer(0, 0, "W");
+	
+		String l = planet.executeCommand("l");
+		
+		
+		String kraj = planet.pozicija();
+		assertEquals(l, planet);
+	}
+	
+	@Test(expected = PlanetExplorerException.class)
+	public void test_levo1() throws PlanetExplorerException {
+		
+		PlanetExplorer planet = new PlanetExplorer(0, 0, "W");
+	
+		String l = planet.executeCommand("l");
+		l = planet.executeCommand("l");
+		
+		String kraj = planet.pozicija();
+		assertEquals(l, planet);
 	}
 	
 }
