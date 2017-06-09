@@ -13,3 +13,13 @@ RefactoringAction 1497002980256 PlanetExplorer.java ADD int x FIELD
 RefactoringAction 1497002990789 PlanetExplorer.java ADD int y FIELD
 RefactoringAction 1497002994805 PlanetExplorer.java ADD String strana FIELD
 EditAction 1497002999602 PlanetExplorer.java 1325 2 1 0
+CompilationAction 1497003007393 TestPlanetExplorer.java
+RefactoringAction 1497003030956 PlanetExplorer.java ADD int getX() METHOD
+RefactoringAction 1497003030958 PlanetExplorer.java ADD void setX(int) METHOD
+RefactoringAction 1497003030961 PlanetExplorer.java ADD int getY() METHOD
+RefactoringAction 1497003030962 PlanetExplorer.java ADD void setY(int) METHOD
+RefactoringAction 1497003030964 PlanetExplorer.java ADD String getStrana() METHOD
+RefactoringAction 1497003030968 PlanetExplorer.java ADD void setStrana(String) METHOD
+RefactoringAction 1497003049019 PlanetExplorer.java ADD PlanetExplorer(int, int, String)/2 METHOD
+RefactoringAction 1497003065542 PlanetExplorer.java REMOVE PlanetExplorer(int, int, String)/2 METHOD
+EditAction 1497003101024 PlanetExplorer.java 1668 8 10 0
