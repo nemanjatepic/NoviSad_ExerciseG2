@@ -39,8 +39,8 @@ public class PlanetExplorer {
 		return null;
 	}
 	
-	/*
-	public void napred(){
+	
+	public void napred() throws PlanetExplorerException{
 		if(strana == "N")
 		{
 			y++;
@@ -51,9 +51,15 @@ public class PlanetExplorer {
 		}
 		else if(strana == "W")
 		{
-			
+			x--;
 		}
-	}*/
+		else if(strana == "E")
+		{
+			x++;
+		}
+		else
+			throw new PlanetExplorerException();
+	}
 	
 	public String pozicija(){
 		return "(" + x + ", " + y + ", " + strana + ")";
