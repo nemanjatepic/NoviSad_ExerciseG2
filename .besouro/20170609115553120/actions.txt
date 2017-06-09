@@ -46,3 +46,7 @@ RefactoringAction 1497003687404 PlanetExplorer.java ADD void setY(int) METHOD
 RefactoringAction 1497003687405 PlanetExplorer.java ADD String getStrana() METHOD
 RefactoringAction 1497003687407 PlanetExplorer.java ADD void setStrana(String) METHOD
 EditAction 1497003688497 PlanetExplorer.java 1899 9 11 0
+CompilationAction 1497003699346 TestPlanetExplorer.java
+RefactoringAction 1497003759448 TestPlanetExplorer.java ADD void assertNotTrue(PlanetExplorer) METHOD
+RefactoringAction 1497003763864 TestPlanetExplorer.java REMOVE assertNotTrue(PlanetExplorer) METHOD
+EditAction 1497003798755 TestPlanetExplorer.java 230 1 2 1
