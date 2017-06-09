@@ -7,3 +7,9 @@ CompilationAction 1497002805093 TestPlanetExplorer.java
 CompilationAction 1497002924955 TestPlanetExplorer.java
 CompilationAction 1497002925279 TestPlanetExplorer.java
 EditAction 1497002925464 PlanetExplorer.java 1255 2 1 0
+UnitTestCaseAction 1497002937838 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497002937841 TestPlanetExplorer.java FAIL
+RefactoringAction 1497002980256 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1497002990789 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1497002994805 PlanetExplorer.java ADD String strana FIELD
+EditAction 1497002999602 PlanetExplorer.java 1325 2 1 0
