@@ -128,3 +128,16 @@ RefactoringAction 1497006202835 TestPlanetExplorer.java RENAME test_levo()/2=>vo
 CompilationAction 1497006247265 PlanetExplorer.java
 CompilationAction 1497006247564 PlanetExplorer.java
 EditAction 1497006255489 PlanetExplorer.java 3180 13 16 0
+CompilationAction 1497006263386 PlanetExplorer.java
+RefactoringAction 1497006377531 TestPlanetExplorer.java ADD void test_levo1()/2 METHOD
+RefactoringAction 1497006380062 TestPlanetExplorer.java RENAME test_levo1()/2=>void test_levo2() METHOD
+RefactoringAction 1497006434656 TestPlanetExplorer.java ADD void test_levo2()/2 METHOD
+RefactoringAction 1497006439169 TestPlanetExplorer.java RENAME test_levo2()/2=>void test_napred() METHOD
+RefactoringAction 1497006557421 TestPlanetExplorer.java ADD void test_napred()/2 METHOD
+RefactoringAction 1497006560935 TestPlanetExplorer.java RENAME test_napred()/2=>void test_napred1() METHOD
+RefactoringAction 1497006661688 TestPlanetExplorer.java ADD void test_napred1()/2 METHOD
+RefactoringAction 1497006666201 TestPlanetExplorer.java RENAME test_napred1()/2=>void test_napred2() METHOD
+UnitTestCaseAction 1497006689179 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497006689181 TestPlanetExplorer.java FAIL
+RefactoringAction 1497006706259 TestPlanetExplorer.java ADD void test_napred2()/2 METHOD
+RefactoringAction 1497006711273 TestPlanetExplorer.java RENAME test_napred2()/2=>void test_move() METHOD

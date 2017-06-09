@@ -18,8 +18,6 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-		
-		
 		this.x = x;
 		this.y = y;
 		this.strana = strana;
@@ -37,31 +35,30 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		if(command == "f")
+		if(x >= 0 && y >= 0)
 		{
-			napred();
-		}
-		else if(command == "b")
-		{
-			nazad();
-		}
-		else if(command == "l")
-		{
-			levo();
-		}
-		else if(command == "r")
-		{
-			desno();
-		}
-		else
-			throw new PlanetExplorerException();
-		
-		if(x<0 || y<0)
-		{
-			return 0;
+			if(command == "f")
+			{
+				napred();
+			}
+			else if(command == "b")
+			{
+				nazad();
+			}
+			else if(command == "l")
+			{
+				levo();
+			}
+			else if(command == "r")
+			{
+				desno();
+			}
+			else
+				throw new PlanetExplorerException();
 		}
 		
 		
+		return null;
 	}
 	
 	
