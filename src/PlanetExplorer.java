@@ -24,7 +24,7 @@ public class PlanetExplorer {
 		this.strana = strana;
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws PlanetExplorerException{
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -35,6 +35,25 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		
+		if(command == "f")
+		{
+			napred();
+		}
+		else if(command == "b")
+		{
+			nazad();
+		}
+		else if(command == "l")
+		{
+			levo();
+		}
+		else if(command == "r")
+		{
+			desno();
+		}
+		else
+			throw new PlanetExplorerException();
 		
 		
 		

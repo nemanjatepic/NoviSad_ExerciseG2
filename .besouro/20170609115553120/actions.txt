@@ -98,3 +98,5 @@ RefactoringAction 1497005140338 PlanetExplorer.java RENAME levo()/2=>void de() M
 RefactoringAction 1497005141350 PlanetExplorer.java RENAME de()=>void desno() METHOD
 RefactoringAction 1497005209957 PlanetExplorer.java RENAME pozicija(String)=>String pozicija() METHOD
 EditAction 1497005210226 PlanetExplorer.java 2893 13 15 0
+CompilationAction 1497005223276 TestPlanetExplorer.java
+EditAction 1497005512228 PlanetExplorer.java 3153 13 16 0
