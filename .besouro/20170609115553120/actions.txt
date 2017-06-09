@@ -100,3 +100,15 @@ RefactoringAction 1497005209957 PlanetExplorer.java RENAME pozicija(String)=>Str
 EditAction 1497005210226 PlanetExplorer.java 2893 13 15 0
 CompilationAction 1497005223276 TestPlanetExplorer.java
 EditAction 1497005512228 PlanetExplorer.java 3153 13 16 0
+UnitTestCaseAction 1497005615630 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497005615631 TestPlanetExplorer.java FAIL
+RefactoringAction 1497005696146 TestPlanetExplorer.java ADD void test_desno()/2 METHOD
+RefactoringAction 1497005697656 TestPlanetExplorer.java ADD void test_desno()/3 METHOD
+RefactoringAction 1497005704169 TestPlanetExplorer.java RENAME test_desno()/3=>void test_desno1() METHOD
+RefactoringAction 1497005707682 TestPlanetExplorer.java RENAME test_desno()/2=>void test_desno2() METHOD
+RefactoringAction 1497005779803 PlanetExplorer.java RENAME pozicija()=>void pozicija(String) METHOD
+RefactoringAction 1497005782317 PlanetExplorer.java RENAME pozicija(String)=>v pozicija() METHOD
+RefactoringAction 1497005803871 PlanetExplorerException.java ADD void PlanetExplorerException FIELD
+RefactoringAction 1497005805377 PlanetExplorerException.java RENAME PlanetExplorerException=>void PlanetExplorerException() METHOD
+RefactoringAction 1497005826937 PlanetExplorerException.java REMOVE PlanetExplorerException() METHOD
+EditAction 1497005827726 PlanetExplorerException.java 62 0 0 0

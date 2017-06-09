@@ -15,10 +15,11 @@ public class TestPlanetExplorer {
 	@Test(expected = PlanetExplorerException.class)
 	public void test_desno() throws PlanetExplorerException {
 		
-		PlanetExplorer planet = new PlanetExplorer(0, 0, "N");
-		
+		PlanetExplorer planet = new PlanetExplorer(0, 0, "E");
+	
+		String r = planet.executeCommand("r");
 		String kraj = planet.pozicija();
-		assertEquals("Pocetne koordinate", planet, kraj);
+		assertEquals("Pocetne koordinate", r, planet);
 	}
 	
 }
