@@ -23,3 +23,9 @@ RefactoringAction 1497003030968 PlanetExplorer.java ADD void setStrana(String) M
 RefactoringAction 1497003049019 PlanetExplorer.java ADD PlanetExplorer(int, int, String)/2 METHOD
 RefactoringAction 1497003065542 PlanetExplorer.java REMOVE PlanetExplorer(int, int, String)/2 METHOD
 EditAction 1497003101024 PlanetExplorer.java 1668 8 10 0
+CompilationAction 1497003108658 TestPlanetExplorer.java
+RefactoringAction 1497003129349 PlanetExplorer.java ADD void napred FIELD
+RefactoringAction 1497003130361 PlanetExplorer.java RENAME napred=>void napred() METHOD
+RefactoringAction 1497003416465 PlanetExplorer.java ADD String pozicija FIELD
+RefactoringAction 1497003417476 PlanetExplorer.java RENAME pozicija=>String pozicija() METHOD
+EditAction 1497003455928 PlanetExplorer.java 1893 10 12 0

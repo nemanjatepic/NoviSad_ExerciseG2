@@ -38,6 +38,25 @@ public class PlanetExplorer {
 		
 		return null;
 	}
+	
+	public void napred(){
+		if(strana == "N")
+		{
+			y++;
+		}
+		else if(strana == "S")
+		{
+			y--;
+		}
+		else if(strana == "W")
+		{
+			
+		}
+	}
+	
+	public String pozicija(){
+		return "(" + x + ", " + y + ", " + strana + ")";
+	}
 
 	public int getX() {
 		return x;
