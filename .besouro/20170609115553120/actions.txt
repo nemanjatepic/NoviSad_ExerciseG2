@@ -1,0 +1,5 @@
+FileOpenedAction 1497002153553 TestPlanetExplorer.java 174 1 1 0
+RefactoringAction 1497002563841 TestPlanetExplorer.java RENAME test_executeCommand()=>void test_start() METHOD
+RefactoringAction 1497002567355 TestPlanetExplorer.java RENAME test_start()=>void test_startna() METHOD
+RefactoringAction 1497002570873 TestPlanetExplorer.java RENAME test_startna()=>void test_startnaPozicija() METHOD
+EditAction 1497002797401 TestPlanetExplorer.java 262 1 0 0
