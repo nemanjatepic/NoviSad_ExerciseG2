@@ -39,6 +39,7 @@ public class PlanetExplorer {
 		return null;
 	}
 	
+	/*
 	public void napred(){
 		if(strana == "N")
 		{
@@ -52,7 +53,7 @@ public class PlanetExplorer {
 		{
 			
 		}
-	}
+	}*/
 	
 	public String pozicija(){
 		return "(" + x + ", " + y + ", " + strana + ")";

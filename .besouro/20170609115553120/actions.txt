@@ -29,3 +29,20 @@ RefactoringAction 1497003130361 PlanetExplorer.java RENAME napred=>void napred()
 RefactoringAction 1497003416465 PlanetExplorer.java ADD String pozicija FIELD
 RefactoringAction 1497003417476 PlanetExplorer.java RENAME pozicija=>String pozicija() METHOD
 EditAction 1497003455928 PlanetExplorer.java 1893 10 12 0
+CompilationAction 1497003465932 TestPlanetExplorer.java
+RefactoringAction 1497003684872 PlanetExplorer.java REMOVE getX() METHOD
+RefactoringAction 1497003684874 PlanetExplorer.java REMOVE napred() METHOD
+RefactoringAction 1497003684876 PlanetExplorer.java REMOVE setX(int) METHOD
+RefactoringAction 1497003684877 PlanetExplorer.java REMOVE setY(int) METHOD
+RefactoringAction 1497003684879 PlanetExplorer.java REMOVE pozicija() METHOD
+RefactoringAction 1497003684880 PlanetExplorer.java REMOVE getStrana() METHOD
+RefactoringAction 1497003684882 PlanetExplorer.java REMOVE getY() METHOD
+RefactoringAction 1497003684884 PlanetExplorer.java REMOVE setStrana(String) METHOD
+RefactoringAction 1497003687397 PlanetExplorer.java ADD String pozicija() METHOD
+RefactoringAction 1497003687400 PlanetExplorer.java ADD int getX() METHOD
+RefactoringAction 1497003687402 PlanetExplorer.java ADD void setX(int) METHOD
+RefactoringAction 1497003687403 PlanetExplorer.java ADD int getY() METHOD
+RefactoringAction 1497003687404 PlanetExplorer.java ADD void setY(int) METHOD
+RefactoringAction 1497003687405 PlanetExplorer.java ADD String getStrana() METHOD
+RefactoringAction 1497003687407 PlanetExplorer.java ADD void setStrana(String) METHOD
+EditAction 1497003688497 PlanetExplorer.java 1899 9 11 0
