@@ -36,6 +36,8 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		
+		
 		return null;
 	}
 	
@@ -106,7 +108,29 @@ public class PlanetExplorer {
 			throw new PlanetExplorerException();
 	}
 	
-	public String pozicija(String s){
+	public void desno() throws PlanetExplorerException{
+
+		if(strana == "N")
+		{
+			strana = "E";
+		}
+		else if(strana == "E")
+		{
+			strana = "S";
+		}
+		else if(strana == "S")
+		{
+			strana = "W";
+		}
+		else if(strana == "W")
+		{
+			strana = "N";
+		}
+		else
+			throw new PlanetExplorerException();
+	}
+	
+	public String pozicija(){
 		return "(" + x + ", " + y + ", " + strana + ")";
 	}
 

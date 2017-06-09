@@ -92,3 +92,9 @@ CompilationAction 1497004989272 TestPlanetExplorer.java
 RefactoringAction 1497005035970 PlanetExplorer.java ADD void nazad()/2 METHOD
 RefactoringAction 1497005038485 PlanetExplorer.java RENAME nazad()/2=>void levo() METHOD
 EditAction 1497005110421 PlanetExplorer.java 2594 12 14 0
+CompilationAction 1497005118478 TestPlanetExplorer.java
+RefactoringAction 1497005138327 PlanetExplorer.java ADD void levo()/2 METHOD
+RefactoringAction 1497005140338 PlanetExplorer.java RENAME levo()/2=>void de() METHOD
+RefactoringAction 1497005141350 PlanetExplorer.java RENAME de()=>void desno() METHOD
+RefactoringAction 1497005209957 PlanetExplorer.java RENAME pozicija(String)=>String pozicija() METHOD
+EditAction 1497005210226 PlanetExplorer.java 2893 13 15 0
