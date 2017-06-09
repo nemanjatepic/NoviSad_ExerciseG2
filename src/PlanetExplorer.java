@@ -62,8 +62,8 @@ public class PlanetExplorer {
 			throw new PlanetExplorerException();
 	}
 	
-public void nazad() throws PlanetExplorerException{
-		
+	public void nazad() throws PlanetExplorerException{
+
 		if(strana == "N")
 		{
 			y--;
@@ -84,7 +84,29 @@ public void nazad() throws PlanetExplorerException{
 			throw new PlanetExplorerException();
 	}
 	
-	public String pozicija(){
+	public void levo() throws PlanetExplorerException{
+
+		if(strana == "N")
+		{
+			strana = "W";
+		}
+		else if(strana == "W")
+		{
+			strana = "S";
+		}
+		else if(strana == "S")
+		{
+			strana = "E";
+		}
+		else if(strana == "E")
+		{
+			strana = "N";
+		}
+		else
+			throw new PlanetExplorerException();
+	}
+	
+	public String pozicija(String s){
 		return "(" + x + ", " + y + ", " + strana + ")";
 	}
 

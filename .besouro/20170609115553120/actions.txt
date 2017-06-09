@@ -87,3 +87,8 @@ UnitTestSessionAction 1497004823585 TestPlanetExplorer.java FAIL
 RefactoringAction 1497004915258 PlanetExplorer.java ADD void napred()/2 METHOD
 RefactoringAction 1497004918769 PlanetExplorer.java RENAME napred()/2=>void nazad() METHOD
 EditAction 1497004934357 PlanetExplorer.java 2287 11 13 0
+RefactoringAction 1497004970874 PlanetExplorer.java RENAME pozicija()=>String pozicija(String) METHOD
+CompilationAction 1497004989272 TestPlanetExplorer.java
+RefactoringAction 1497005035970 PlanetExplorer.java ADD void nazad()/2 METHOD
+RefactoringAction 1497005038485 PlanetExplorer.java RENAME nazad()/2=>void levo() METHOD
+EditAction 1497005110421 PlanetExplorer.java 2594 12 14 0
