@@ -3,3 +3,7 @@ RefactoringAction 1497002563841 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1497002567355 TestPlanetExplorer.java RENAME test_start()=>void test_startna() METHOD
 RefactoringAction 1497002570873 TestPlanetExplorer.java RENAME test_startna()=>void test_startnaPozicija() METHOD
 EditAction 1497002797401 TestPlanetExplorer.java 262 1 0 0
+CompilationAction 1497002805093 TestPlanetExplorer.java
+CompilationAction 1497002924955 TestPlanetExplorer.java
+CompilationAction 1497002925279 TestPlanetExplorer.java
+EditAction 1497002925464 PlanetExplorer.java 1255 2 1 0
