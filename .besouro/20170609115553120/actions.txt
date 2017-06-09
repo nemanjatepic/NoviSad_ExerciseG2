@@ -73,3 +73,17 @@ RefactoringAction 1497004159882 PlanetExplorer.java ADD void setY(int) METHOD
 RefactoringAction 1497004159884 PlanetExplorer.java ADD String getStrana() METHOD
 RefactoringAction 1497004159886 PlanetExplorer.java ADD void setStrana(String) METHOD
 EditAction 1497004432836 PlanetExplorer.java 2018 10 12 0
+UnitTestCaseAction 1497004444581 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004444583 TestPlanetExplorer.java FAIL
+RefactoringAction 1497004605600 TestPlanetExplorer.java ADD void test_startnaPozicija()/2 METHOD
+RefactoringAction 1497004612112 TestPlanetExplorer.java RENAME test_startnaPozicija()/2=>void test_() METHOD
+RefactoringAction 1497004619134 TestPlanetExplorer.java RENAME test_()=>void test_desno() METHOD
+RefactoringAction 1497004709338 TestPlanetExplorer.java REMOVE test_desno() METHOD
+UnitTestCaseAction 1497004715182 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004715184 TestPlanetExplorer.java FAIL
+RefactoringAction 1497004756399 TestPlanetExplorer.java ADD void test_desno() METHOD
+UnitTestCaseAction 1497004823583 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004823585 TestPlanetExplorer.java FAIL
+RefactoringAction 1497004915258 PlanetExplorer.java ADD void napred()/2 METHOD
+RefactoringAction 1497004918769 PlanetExplorer.java RENAME napred()/2=>void nazad() METHOD
+EditAction 1497004934357 PlanetExplorer.java 2287 11 13 0

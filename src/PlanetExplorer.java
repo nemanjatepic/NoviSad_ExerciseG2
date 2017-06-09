@@ -41,6 +41,7 @@ public class PlanetExplorer {
 	
 	
 	public void napred() throws PlanetExplorerException{
+		
 		if(strana == "N")
 		{
 			y++;
@@ -56,6 +57,28 @@ public class PlanetExplorer {
 		else if(strana == "E")
 		{
 			x++;
+		}
+		else
+			throw new PlanetExplorerException();
+	}
+	
+public void nazad() throws PlanetExplorerException{
+		
+		if(strana == "N")
+		{
+			y--;
+		}
+		else if(strana == "S")
+		{
+			y++;
+		}
+		else if(strana == "W")
+		{
+			x++;
+		}
+		else if(strana == "E")
+		{
+			x--;
 		}
 		else
 			throw new PlanetExplorerException();
